@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "kuchima-log-tfstate"
     prefix = "env/dev"
   }
 }
